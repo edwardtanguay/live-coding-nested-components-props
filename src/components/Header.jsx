@@ -3,10 +3,10 @@ export const Header = ({ status }) => {
 	let message = '';
 	switch (status) {
 		case 'internalUser':
-			message = 'This is our team:';
+			message = 'The summer employee picnic is on May 15.';
 			break;
 		case 'externalUser':
-			message = 'The summer employee picnic is on May 15.';
+			message = 'This is our team:';
 			break;
 		default:
 			message = '******* HAVE A NICE DAY ******';
