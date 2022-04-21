@@ -3,7 +3,7 @@ import employees from './data/employees.json';
 import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 
-const status = 'externalUser';
+const status = 'internalUser';
 
 function App() {
 	return (
