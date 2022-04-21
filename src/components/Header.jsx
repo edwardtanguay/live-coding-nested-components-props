@@ -1,8 +1,8 @@
-export const Header = ({ userIsExternal }) => {
+export const Header = ({ status }) => {
 	return (
 		<>
 			<h1>Employee Site</h1>
-			{userIsExternal ? (
+			{status !== 'internalUser' ? (
 				<div className="message">This is our team:</div>
 			) : (
 				<div className="message">
