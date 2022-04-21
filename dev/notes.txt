@@ -1,0 +1,3 @@
+- .. employee component 
+
+- refactor header/footer code to GeneralStatusMessage
