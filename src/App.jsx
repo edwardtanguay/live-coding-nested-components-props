@@ -1,15 +1,22 @@
 import './App.scss';
 import employees from './data/employees.json';
+import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Employee Site</h1>
+			<Header />
 			<ul>
 				{employees.map((emp, index) => {
-					return <li>{emp.firstName} {emp.lastName}</li>;
+					return (
+						<li>
+							{emp.firstName} {emp.lastName}
+						</li>
+					);
 				})}
 			</ul>
+			<Footer />
 		</div>
 	);
 }
