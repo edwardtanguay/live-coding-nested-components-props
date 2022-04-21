@@ -17,5 +17,6 @@ export const GeneralStatusMessage = ({
 			break;
 	}
 
-	return <div className="message">{message}</div>;
+	return <div className="message" dangerouslySetInnerHTML={{ __html: message }
+}></div>;
 };

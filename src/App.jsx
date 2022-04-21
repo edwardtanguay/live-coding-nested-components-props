@@ -4,7 +4,7 @@ import { Header } from './components/Header';
 import { Footer } from './components/Footer';
 import { Employee } from './components/Employee';
 
-const status = 'internalUser';
+const status = 'externalUser';
 
 function App() {
 	return (
